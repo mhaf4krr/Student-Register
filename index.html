@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+      <main class='regForm'>
+           <h2> Student registration Form </h2>      Firstname:<input id='fname' type="text"><br><br>
+      Lastname:<input id='lname' type="text"><br><br>
+      Semester:<input id='sem' type="text"><br><br>
+      <button id='button-click' >Submit</button>  <button id='button-get' >Get Data</button><button id='clear-button'>Clear from Storage</button><button id='clear-button-ui'>Clear from UI</button><br><br><br><br>
+
+      <div id='result-div' class='result'></div>
+</main>
+      <main class='student-main'>
+      <table class='student-details'>
+            <thead>
+                  <tr>
+                        <th>
+                              Firstname
+                        </th>
+                        <th>
+                              Lastname
+                        </th>
+                        <th>
+                              Semester
+                        </th>
+                  </tr>
+            </thead>
+
+            <tbody id='body-list'></tbody>
+      </table>
+</main>
+</body>
+   <script src="app.js"></script>
+</body>
+</html>
